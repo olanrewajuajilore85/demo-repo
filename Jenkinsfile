@@ -11,7 +11,7 @@ pipeline {
         stage('Compiile') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/olanrewajuajilore85/devops.git'
+                git 'https://github.com/olanrewajuajilore85/demo-repo.git'
 
                 // Run Maven on a Unix agent.
                 sh "mvn compile"
