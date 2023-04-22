@@ -8,7 +8,7 @@ pipeline {
     }
 
     stages {
-        stage('Compiile') {
+        stage('Compile') {
             steps {
                 // Get some code from a GitHub repository
                 git 'https://github.com/olanrewajuajilore85/demo-repo.git'
