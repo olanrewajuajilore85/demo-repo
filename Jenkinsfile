@@ -21,7 +21,7 @@ pipeline {
 
         stage('CodeReview') {
             steps{
-                sh "mvn pmd:pmd"
+                sh "mvn pmd:pm"
             }
 	    }
         stage('UnitTest') {
